@@ -21,7 +21,7 @@ public class StudentController {
     private StudentRepository repository;
 
     @PostConstruct
-    public void addEmployees() {
+    public void addStudent() {
         List<Student> students = new ArrayList<>();
         students.add(new Student(1, "Basant", new String[]{"Bangalore", "BTM"}));
         students.add(new Student(2, "Santosh", new String[]{"Hyderbad", "XYZ"}));
