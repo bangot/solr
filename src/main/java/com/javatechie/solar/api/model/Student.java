@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@SolrDocument(collection = "employee")
-public class Employee {
+@SolrDocument(collection = "student")
+public class Student {
 	@Id
 	@Field
 	private Long id;
